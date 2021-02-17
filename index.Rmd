@@ -20,7 +20,7 @@ class: center
 ### Intro to High-Performance Computing Cluster
 #### for UCL users
 
-![:scale 40%](img/doge_title.png)
+![:scale 35%](img/doge_title.png)
 
 #### Albert Henry
 
@@ -28,6 +28,8 @@ class: center
 This presentation is available on: [https://alhenry.github.io/hpc-tutorial](https://alhenry.github.io/hpc-tutorial)
 
 Source code: [https://github.com/alhenry/hpc-tutorial](https://github.com/alhenry/hpc-tutorial)
+
+Reference: [Introduction to HPC by UCL RITS](http://rits.github-pages.ucl.ac.uk/hpc-intro)
 ]
 
 ```{r setup, include=FALSE}
@@ -77,11 +79,54 @@ style_extra_css(extra_css)
 ```
 
 ---
-# What is an HPC system?
+## What is an HPC system?
 
-A stand-alone resource for computationally intensive workloads, typically comprised of a multitude of independent processing and storage elements, designed to handle high volumes of data and/or large numbers of floating-point operations (FLOPS) with the highest possible performance (_UCL RITS_).
+.small75[
+A stand-alone resource for computationally intensive workloads, typically comprised of a multitude of independent processing and storage elements, designed to handle high volumes of data and/or large numbers of floating-point operations (FLOPS) with the highest possible performance
 
+\- _UCL Research IT Service_
+]
 
-<iframe src="https://slides.com/johanneskoester/snakemake-tutorial/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+![:scale 95%](img/computing.png)
+
+---
+## Why you may want to use HPC
+- Perform computationally intensive tasks
+- Share data, software stack, or other computing resources
+- Use HPC-specific hardware / software
+- Test code / software reproducibility
+
+--
+## Why you may not want to use HPC
+- GUI-based operation
+- Simple nteractive, exploratory data analysis
+- Day to day task (writing thesis, watching videos, online shopping, etc.)
+
+---
+### Job scheduler
+![](http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/restaurant_queue_manager.svg)
+
+Both UCL Myriad & CS Cluster HPC system use Sun Grid Engine (SGE) scheduler
+
+---
+### Submitting jobs
+.small75[
+You can submit job to SGE scheduler with `qsub` command, following this syntax:
+
+`qsub [options] [command [command_args] | -- [command_args]]`
+
+Specifying `options` for requesting resources is commonly (and often better) done via a shell script, with the special comment line `#! <options>`.
+
+Some common `options`  are:
+- `-l h_rt=hours:minutes:seconds` - How much real-world time (walltime) will your job take to run?
+
+- `-pe mpi <ncpus>` - How many CPUs does your job need? If you only need one CPU you can leave this out.
+
+- `-l mem=<bytes>` - How much memory per process does your job need? Must be an integer followed by M, G, or T to specify Mega, Giga or Terabytes.
+
+- `-wd /home/<your_UCL_id>/Scratch/<your_run_directory>` - Set the working directory to somewhere in your scratch space.
+]
+---
+
 
 
