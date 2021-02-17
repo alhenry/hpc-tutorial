@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T07:26:11.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" version="14.3.2" etag="rLggIj9ik35NFbyw3msb" type="github"><diagram id="4SJmbRab1uJO91REHUFb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-17T07:34:59.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="vONRiuQWoIMqnNWivVPx" version="14.3.2" type="github">
+  <diagram id="4SJmbRab1uJO91REHUFb" name="Page-1">
+    <mxGraphModel dx="722" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="770" y="120" width="91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="816" y="146" width="91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="720" y="138" width="91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="766" y="164" width="91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/200px-laptop-openclipartorg-aoguerrero.svg;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/Simple_Von_Neumann_Architecture.svg;" vertex="1" parent="1">
+          <mxGeometry x="57.25" y="270" width="285.49" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Local machine&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/servers-openclipartorg-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="444.26" y="120" width="121.34" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-5" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;Compute server&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414.93" y="80" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="670" y="158" width="91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://rits.github-pages.ucl.ac.uk/hpc-intro/fig/serverrack-openclipartorg-psteinb-basedon-ericlemerdy.svg;" vertex="1" parent="1">
+          <mxGeometry x="716" y="184" width="91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8N8a2RouKSs2cM4VMqvu-12" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;Cluster / grid computing&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="80" width="210" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
